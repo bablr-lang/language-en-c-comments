@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.22.15",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#90448dbbce32f902affe36efc2cc3bb17fd9e032",
-    "@bablr/helpers": "github:bablr-lang/helpers#4faf436140e306f636db505ff741cf9ac4a19beb",
-    "@bablr/language-blank-space": "github:bablr-lang/language-blank-space#899dfca03ee304ca5730996288b33050ac735b3f",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#bbf50d0ea19e62c7c81e674e58463592e9491f89",
+    "@bablr/helpers": "github:bablr-lang/helpers#126e39cce3a4f7687d100197821d77f5d26d10e1",
+    "@bablr/language-blank-space": "github:bablr-lang/language-blank-space#b2fb3d4261f2ba8eafbcc1fa202fc00126913646",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
