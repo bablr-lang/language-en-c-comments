@@ -21,7 +21,7 @@
     "@babel/runtime": "^7.22.15",
     "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#bbf50d0ea19e62c7c81e674e58463592e9491f89",
     "@bablr/helpers": "github:bablr-lang/helpers#126e39cce3a4f7687d100197821d77f5d26d10e1",
-    "@bablr/language-blank-space": "github:bablr-lang/language-blank-space#b2fb3d4261f2ba8eafbcc1fa202fc00126913646",
+    "@bablr/language-blank-space": "github:bablr-lang/language-blank-space#f8062573a01e9d11f265a1294116449a17ef8891",
     "iter-tools-es": "^7.5.3"
   },
   "devDependencies": {
