@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/language-c-comments",
+  "name": "@bablr/language-en-c-comments",
   "version": "0.0.0",
   "description": "A BABLR language for C-style comments",
   "engines": {
@@ -7,7 +7,8 @@
   },
   "type": "module",
   "exports": {
-    ".": "./lib/grammar.js"
+    ".": "./lib/grammar.js",
+    "./package.json": "./package.json"
   },
   "files": [
     "lib/**/*.js"
@@ -20,15 +21,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.22.15",
-    "@bablr/agast-helpers": "0.1.6",
-    "@bablr/agast-vm-helpers": "0.1.5",
-    "@bablr/helpers": "0.16.0",
-    "@bablr/language-blank-space": "0.1.2"
+    "@bablr/agast-helpers": "0.2.0",
+    "@bablr/agast-vm-helpers": "0.2.0",
+    "@bablr/helpers": "0.17.0",
+    "@bablr/language-en-blank-space": "0.2.0"
   },
   "devDependencies": {
     "@bablr/macrome": "0.1.1",
     "@bablr/macrome-generator-bablr": "0.3.1",
-    "@bablr/boot": "0.2.4",
+    "@bablr/boot": "0.3.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.47.0",
@@ -36,8 +37,15 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.0.5"
   },
-  "repository": "git@github.com:bablr-lang/language-c-comments.git",
-  "homepage": "https://github.com/bablr-lang/language-c-comments",
+  "keywords": [
+    "bablr-language",
+    "grammar",
+    "english",
+    "comment",
+    "c"
+  ],
+  "repository": "git@github.com:bablr-lang/language-en-c-comments.git",
+  "homepage": "https://github.com/bablr-lang/language-en-c-comments",
   "author": "Conrad Buck <conartist6@gmail.com>",
   "license": "MIT"
 }

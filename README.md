@@ -1,3 +1,3 @@
-# @bablr/language-c-comments
+# @bablr/language-en-c-comments
 
 Defines C-style line and block comments
