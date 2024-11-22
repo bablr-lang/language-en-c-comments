@@ -1,6 +1,6 @@
 {
   "name": "@bablr/language-en-c-comments",
-  "version": "0.0.0",
+  "version": "0.6.2",
   "description": "A BABLR language for C-style comments",
   "engines": {
     "node": ">=12.0.0"
@@ -10,9 +10,7 @@
     ".": "./lib/grammar.js",
     "./package.json": "./package.json"
   },
-  "files": [
-    "lib/**/*.js"
-  ],
+  "files": ["lib/**/*.js"],
   "sideEffects": false,
   "scripts": {
     "build": "macrome build",
@@ -37,13 +35,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.0.5"
   },
-  "keywords": [
-    "bablr-language",
-    "grammar",
-    "english",
-    "comment",
-    "c"
-  ],
+  "keywords": ["bablr-language", "grammar", "english", "comment", "c"],
   "repository": "git@github.com:bablr-lang/language-en-c-comments.git",
   "homepage": "https://github.com/bablr-lang/language-en-c-comments",
   "author": "Conrad Buck <conartist6@gmail.com>",
