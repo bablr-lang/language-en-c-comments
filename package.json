@@ -24,8 +24,8 @@
     "@bablr/agast-helpers": "0.7.1",
     "@bablr/agast-vm-helpers": "0.7.1",
     "@bablr/boot": "0.8.1",
-    "@bablr/helpers": "^0.22.1",
-    "@bablr/language-en-blank-space": "^0.5.0"
+    "@bablr/helpers": "0.22.1",
+    "@bablr/language-en-blank-space": "0.7.0"
   },
   "devDependencies": {
     "@bablr/macrome": "^0.1.3",
